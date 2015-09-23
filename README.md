@@ -1,9 +1,9 @@
-*(MiniSim: if your browser Java plug-in isn't working on the linked
+![MiniSim screenshot](screenshot.png)
+######*(MiniSim: if your browser Java plug-in isn't working on the linked
 webapge, download MiniSimDemo.jar, run at cmd-line with "java -jar MiniSimDemo.jar".
 Enter a fun submarine name, click regis sim & start sim, choose sonobuoy types,
 click them into the sea in front of the moving sub and watch the comms msgs pop
 up when  buoys are passed by the sub.)*
-![MiniSim screenshot](screenshot.png)
 
 A. Ganse, APL-UW, 1999-2009
 
