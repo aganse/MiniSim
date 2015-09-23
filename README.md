@@ -16,7 +16,9 @@ The other thing that MiniSim may be useful in demonstrating is for creating a
 single piece of Java2 code that can run as both an independent on-screen
 application and as an applet situated on a webpage.  So you can run MiniSim
 either by entering at the command-line:
+
 `> java -jar MiniSimDemo.jar`
+
 or by bringing up the webpage MiniSim.html in a window of a web browser that
 supports Java2 (that webpage in turn calls up MiniSimDemo.jar).  Any modern
 browser should support that, but just in case, you can always get a Java
@@ -24,14 +26,19 @@ plug-in at http://www.java.com.
 Either way the Java applet/application should run right from the provided jar
 file.  But you can recreate it via the makefile (I know, I know, but let's not
 start another "make" vs "ant" argument here) as follows:
+
 `> make`
+
 This  compiles the *.java code into *.class files and puts the class files into
 MiniSimDemo.jar, and also creates the JavaDoc directory documenting the Java
 structure of the code.  To view the JavaDoc output point your web browser to
 the file doc/javadoc/index.html.  You can also recreate the MiniSim.src.jar
 file via:
+
 `> make srcjar`
+
 And to remove all the extraneous files created during the above:
+
 `> make clean`
 
 MiniSim essentially consists of two halves: the graphical user interface (GUI)
