@@ -1,14 +1,21 @@
+*(MiniSim: if your browser Java plug-in isn't working on the linked
+webapge, download MiniSimDemo.jar, run at cmd-line with "java -jar MiniSimDemo.jar".
+Enter a fun submarine name, click regis sim & start sim, choose sonobuoy types,
+click them into the sea in front of the moving sub and watch the comms msgs pop
+up when  buoys are passed by the sub.)*
+![MiniSim screenshot](screenshot.png)
+
 A. Ganse, APL-UW, 1999-2009
 
-MiniSim is a Java2 program (object-oriented by nature) thrown together as a
-test demonstration of a networked Dept of Defense simulation client.  The 
-simulation networking component itself was part of a software framework that
-can't be shared with the public, but a key concept was that the client is
-separable from the simulator so that this part can be shared publicly.  I
-suppose that really turns this program into more of a demonstration of Java2
-GUI implementation, but maybe that's useful to someone too.  (Like myself in
-six months after I've forgotten all about how I coded this thing.)  A
-screenshot of the application is in the file screenshot.png.
+MiniSim is a Java2 program thrown together as a test demonstration of a
+networked Dept of Defense simulation client.  The simulation networking
+component itself was part of a software framework that can't be shared with
+the public, but a key concept was that the client is separable from the
+simulator so that this part can be shared publicly.  I suppose that really
+turns this program into more of a demonstration of Java2 GUI implementation,
+but maybe that's useful to someone too.  (Like myself in six months after
+I've forgotten all about how I coded this thing.)  A screenshot of the
+application is in the file screenshot.png.
 
 The other thing that MiniSim may be useful in demonstrating is for creating a
 single piece of Java2 code that can run as both an independent on-screen
